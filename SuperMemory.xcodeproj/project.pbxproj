@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		3FBFDA1C1BE27D77000153E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA1B1BE27D77000153E0 /* main.m */; };
-		3FBFDA1F1BE27D77000153E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA1E1BE27D77000153E0 /* AppDelegate.m */; };
-		3FBFDA221BE27D77000153E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA211BE27D77000153E0 /* ViewController.m */; };
-		3FBFDA251BE27D77000153E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA231BE27D77000153E0 /* Main.storyboard */; };
 		3FBFDA271BE27D77000153E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA261BE27D77000153E0 /* Images.xcassets */; };
-		3FBFDA2A1BE27D77000153E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA281BE27D77000153E0 /* LaunchScreen.xib */; };
 		3FBFDA361BE27D77000153E0 /* SuperMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA351BE27D77000153E0 /* SuperMemoryTests.m */; };
+		3FBFDA511BE27DC6000153E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA401BE27DC6000153E0 /* AppDelegate.m */; };
+		3FBFDA521BE27DC6000153E0 /* CDGameContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA421BE27DC6000153E0 /* CDGameContext.m */; };
+		3FBFDA531BE27DC6000153E0 /* CDImageSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA451BE27DC6000153E0 /* CDImageSquare.m */; };
+		3FBFDA541BE27DC6000153E0 /* CDMemoryGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA471BE27DC6000153E0 /* CDMemoryGame.m */; };
+		3FBFDA551BE27DC6000153E0 /* CDPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA491BE27DC6000153E0 /* CDPosition.m */; };
+		3FBFDA561BE27DC6000153E0 /* CDRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA4B1BE27DC6000153E0 /* CDRecord.m */; };
+		3FBFDA571BE27DC6000153E0 /* CDRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA4D1BE27DC6000153E0 /* CDRecordViewController.m */; };
+		3FBFDA581BE27DC6000153E0 /* CDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDA4F1BE27DC6000153E0 /* CDRootViewController.m */; };
+		3FBFDA671BE27E8C000153E0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA5A1BE27E8C000153E0 /* 1.png */; };
+		3FBFDA681BE27E8C000153E0 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA5B1BE27E8C000153E0 /* 10.png */; };
+		3FBFDA691BE27E8C000153E0 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA5C1BE27E8C000153E0 /* 11.png */; };
+		3FBFDA6A1BE27E8C000153E0 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA5D1BE27E8C000153E0 /* 12.png */; };
+		3FBFDA6B1BE27E8C000153E0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA5E1BE27E8C000153E0 /* 2.png */; };
+		3FBFDA6C1BE27E8C000153E0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA5F1BE27E8C000153E0 /* 3.png */; };
+		3FBFDA6D1BE27E8C000153E0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA601BE27E8C000153E0 /* 4.png */; };
+		3FBFDA6E1BE27E8C000153E0 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA611BE27E8C000153E0 /* 5.png */; };
+		3FBFDA6F1BE27E8C000153E0 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA621BE27E8C000153E0 /* 6.png */; };
+		3FBFDA701BE27E8C000153E0 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA631BE27E8C000153E0 /* 7.png */; };
+		3FBFDA711BE27E8C000153E0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA641BE27E8C000153E0 /* 8.png */; };
+		3FBFDA721BE27E8C000153E0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA651BE27E8C000153E0 /* 9.png */; };
+		3FBFDA731BE27E8C000153E0 /* couple.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFDA661BE27E8C000153E0 /* couple.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +44,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FBFDA161BE27D77000153E0 /* SuperMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBFDA161BE27D77000153E0 /* 记忆力大比拼.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "记忆力大比拼.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBFDA1A1BE27D77000153E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBFDA1B1BE27D77000153E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FBFDA1D1BE27D77000153E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3FBFDA1E1BE27D77000153E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FBFDA201BE27D77000153E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FBFDA211BE27D77000153E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FBFDA241BE27D77000153E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBFDA261BE27D77000153E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3FBFDA291BE27D77000153E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3FBFDA2F1BE27D77000153E0 /* SuperMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBFDA341BE27D77000153E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBFDA351BE27D77000153E0 /* SuperMemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMemoryTests.m; sourceTree = "<group>"; };
+		3FBFDA3F1BE27DC6000153E0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FBFDA401BE27DC6000153E0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FBFDA411BE27DC6000153E0 /* CDGameContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDGameContext.h; sourceTree = "<group>"; };
+		3FBFDA421BE27DC6000153E0 /* CDGameContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDGameContext.m; sourceTree = "<group>"; };
+		3FBFDA431BE27DC6000153E0 /* CDGameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDGameDelegate.h; sourceTree = "<group>"; };
+		3FBFDA441BE27DC6000153E0 /* CDImageSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDImageSquare.h; sourceTree = "<group>"; };
+		3FBFDA451BE27DC6000153E0 /* CDImageSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDImageSquare.m; sourceTree = "<group>"; };
+		3FBFDA461BE27DC6000153E0 /* CDMemoryGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMemoryGame.h; sourceTree = "<group>"; };
+		3FBFDA471BE27DC6000153E0 /* CDMemoryGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMemoryGame.m; sourceTree = "<group>"; };
+		3FBFDA481BE27DC6000153E0 /* CDPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPosition.h; sourceTree = "<group>"; };
+		3FBFDA491BE27DC6000153E0 /* CDPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPosition.m; sourceTree = "<group>"; };
+		3FBFDA4A1BE27DC6000153E0 /* CDRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRecord.h; sourceTree = "<group>"; };
+		3FBFDA4B1BE27DC6000153E0 /* CDRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRecord.m; sourceTree = "<group>"; };
+		3FBFDA4C1BE27DC6000153E0 /* CDRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRecordViewController.h; sourceTree = "<group>"; };
+		3FBFDA4D1BE27DC6000153E0 /* CDRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRecordViewController.m; sourceTree = "<group>"; };
+		3FBFDA4E1BE27DC6000153E0 /* CDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRootViewController.h; sourceTree = "<group>"; };
+		3FBFDA4F1BE27DC6000153E0 /* CDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRootViewController.m; sourceTree = "<group>"; };
+		3FBFDA501BE27DC6000153E0 /* CDRotateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRotateProtocol.h; sourceTree = "<group>"; };
+		3FBFDA5A1BE27E8C000153E0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3FBFDA5B1BE27E8C000153E0 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		3FBFDA5C1BE27E8C000153E0 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		3FBFDA5D1BE27E8C000153E0 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		3FBFDA5E1BE27E8C000153E0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3FBFDA5F1BE27E8C000153E0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3FBFDA601BE27E8C000153E0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3FBFDA611BE27E8C000153E0 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3FBFDA621BE27E8C000153E0 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3FBFDA631BE27E8C000153E0 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3FBFDA641BE27E8C000153E0 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		3FBFDA651BE27E8C000153E0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		3FBFDA661BE27E8C000153E0 /* couple.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = couple.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +105,7 @@
 		3FBFDA0D1BE27D77000153E0 = {
 			isa = PBXGroup;
 			children = (
+				3FBFDA591BE27E8C000153E0 /* Resources */,
 				3FBFDA181BE27D77000153E0 /* SuperMemory */,
 				3FBFDA321BE27D77000153E0 /* SuperMemoryTests */,
 				3FBFDA171BE27D77000153E0 /* Products */,
@@ -72,7 +115,7 @@
 		3FBFDA171BE27D77000153E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FBFDA161BE27D77000153E0 /* SuperMemory.app */,
+				3FBFDA161BE27D77000153E0 /* 记忆力大比拼.app */,
 				3FBFDA2F1BE27D77000153E0 /* SuperMemoryTests.xctest */,
 			);
 			name = Products;
@@ -81,13 +124,25 @@
 		3FBFDA181BE27D77000153E0 /* SuperMemory */ = {
 			isa = PBXGroup;
 			children = (
-				3FBFDA1D1BE27D77000153E0 /* AppDelegate.h */,
-				3FBFDA1E1BE27D77000153E0 /* AppDelegate.m */,
-				3FBFDA201BE27D77000153E0 /* ViewController.h */,
-				3FBFDA211BE27D77000153E0 /* ViewController.m */,
-				3FBFDA231BE27D77000153E0 /* Main.storyboard */,
+				3FBFDA3F1BE27DC6000153E0 /* AppDelegate.h */,
+				3FBFDA401BE27DC6000153E0 /* AppDelegate.m */,
+				3FBFDA411BE27DC6000153E0 /* CDGameContext.h */,
+				3FBFDA421BE27DC6000153E0 /* CDGameContext.m */,
+				3FBFDA431BE27DC6000153E0 /* CDGameDelegate.h */,
+				3FBFDA441BE27DC6000153E0 /* CDImageSquare.h */,
+				3FBFDA451BE27DC6000153E0 /* CDImageSquare.m */,
+				3FBFDA461BE27DC6000153E0 /* CDMemoryGame.h */,
+				3FBFDA471BE27DC6000153E0 /* CDMemoryGame.m */,
+				3FBFDA481BE27DC6000153E0 /* CDPosition.h */,
+				3FBFDA491BE27DC6000153E0 /* CDPosition.m */,
+				3FBFDA4A1BE27DC6000153E0 /* CDRecord.h */,
+				3FBFDA4B1BE27DC6000153E0 /* CDRecord.m */,
+				3FBFDA4C1BE27DC6000153E0 /* CDRecordViewController.h */,
+				3FBFDA4D1BE27DC6000153E0 /* CDRecordViewController.m */,
+				3FBFDA4E1BE27DC6000153E0 /* CDRootViewController.h */,
+				3FBFDA4F1BE27DC6000153E0 /* CDRootViewController.m */,
+				3FBFDA501BE27DC6000153E0 /* CDRotateProtocol.h */,
 				3FBFDA261BE27D77000153E0 /* Images.xcassets */,
-				3FBFDA281BE27D77000153E0 /* LaunchScreen.xib */,
 				3FBFDA191BE27D77000153E0 /* Supporting Files */,
 			);
 			path = SuperMemory;
@@ -119,6 +174,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3FBFDA591BE27E8C000153E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FBFDA5A1BE27E8C000153E0 /* 1.png */,
+				3FBFDA5B1BE27E8C000153E0 /* 10.png */,
+				3FBFDA5C1BE27E8C000153E0 /* 11.png */,
+				3FBFDA5D1BE27E8C000153E0 /* 12.png */,
+				3FBFDA5E1BE27E8C000153E0 /* 2.png */,
+				3FBFDA5F1BE27E8C000153E0 /* 3.png */,
+				3FBFDA601BE27E8C000153E0 /* 4.png */,
+				3FBFDA611BE27E8C000153E0 /* 5.png */,
+				3FBFDA621BE27E8C000153E0 /* 6.png */,
+				3FBFDA631BE27E8C000153E0 /* 7.png */,
+				3FBFDA641BE27E8C000153E0 /* 8.png */,
+				3FBFDA651BE27E8C000153E0 /* 9.png */,
+				3FBFDA661BE27E8C000153E0 /* couple.caf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,7 +211,7 @@
 			);
 			name = SuperMemory;
 			productName = SuperMemory;
-			productReference = 3FBFDA161BE27D77000153E0 /* SuperMemory.app */;
+			productReference = 3FBFDA161BE27D77000153E0 /* 记忆力大比拼.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3FBFDA2E1BE27D77000153E0 /* SuperMemoryTests */ = {
@@ -163,11 +238,12 @@
 		3FBFDA0E1BE27D77000153E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = mobiletrain;
 				TargetAttributes = {
 					3FBFDA151BE27D77000153E0 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = UGJ4QZYMFY;
 					};
 					3FBFDA2E1BE27D77000153E0 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,9 +275,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBFDA251BE27D77000153E0 /* Main.storyboard in Resources */,
-				3FBFDA2A1BE27D77000153E0 /* LaunchScreen.xib in Resources */,
+				3FBFDA711BE27E8C000153E0 /* 8.png in Resources */,
+				3FBFDA701BE27E8C000153E0 /* 7.png in Resources */,
+				3FBFDA6B1BE27E8C000153E0 /* 2.png in Resources */,
+				3FBFDA6A1BE27E8C000153E0 /* 12.png in Resources */,
+				3FBFDA721BE27E8C000153E0 /* 9.png in Resources */,
 				3FBFDA271BE27D77000153E0 /* Images.xcassets in Resources */,
+				3FBFDA671BE27E8C000153E0 /* 1.png in Resources */,
+				3FBFDA6F1BE27E8C000153E0 /* 6.png in Resources */,
+				3FBFDA6D1BE27E8C000153E0 /* 4.png in Resources */,
+				3FBFDA681BE27E8C000153E0 /* 10.png in Resources */,
+				3FBFDA6E1BE27E8C000153E0 /* 5.png in Resources */,
+				3FBFDA6C1BE27E8C000153E0 /* 3.png in Resources */,
+				3FBFDA731BE27E8C000153E0 /* couple.caf in Resources */,
+				3FBFDA691BE27E8C000153E0 /* 11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBFDA221BE27D77000153E0 /* ViewController.m in Sources */,
-				3FBFDA1F1BE27D77000153E0 /* AppDelegate.m in Sources */,
+				3FBFDA581BE27DC6000153E0 /* CDRootViewController.m in Sources */,
+				3FBFDA571BE27DC6000153E0 /* CDRecordViewController.m in Sources */,
+				3FBFDA511BE27DC6000153E0 /* AppDelegate.m in Sources */,
+				3FBFDA531BE27DC6000153E0 /* CDImageSquare.m in Sources */,
+				3FBFDA521BE27DC6000153E0 /* CDGameContext.m in Sources */,
+				3FBFDA561BE27DC6000153E0 /* CDRecord.m in Sources */,
+				3FBFDA551BE27DC6000153E0 /* CDPosition.m in Sources */,
 				3FBFDA1C1BE27D77000153E0 /* main.m in Sources */,
+				3FBFDA541BE27DC6000153E0 /* CDMemoryGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,25 +336,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		3FBFDA231BE27D77000153E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FBFDA241BE27D77000153E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FBFDA281BE27D77000153E0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FBFDA291BE27D77000153E0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		3FBFDA371BE27D77000153E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -276,14 +350,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -319,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -347,9 +426,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SuperMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mobiletrain.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "记忆力大比拼";
 			};
 			name = Debug;
 		};
@@ -357,9 +439,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SuperMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mobiletrain.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "记忆力大比拼";
 			};
 			name = Release;
 		};
@@ -377,8 +462,9 @@
 				);
 				INFOPLIST_FILE = SuperMemoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mobiletrain.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMemory.app/SuperMemory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/记忆力大比拼.app/记忆力大比拼";
 			};
 			name = Debug;
 		};
@@ -392,8 +478,9 @@
 				);
 				INFOPLIST_FILE = SuperMemoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mobiletrain.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMemory.app/SuperMemory";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/记忆力大比拼.app/记忆力大比拼";
 			};
 			name = Release;
 		};
@@ -416,6 +503,7 @@
 				3FBFDA3B1BE27D77000153E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FBFDA3C1BE27D77000153E0 /* Build configuration list for PBXNativeTarget "SuperMemoryTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +512,7 @@
 				3FBFDA3E1BE27D77000153E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

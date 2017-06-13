@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  SuperMemory
+//  day082001
 //
-//  Created by LUOHao on 15/10/30.
-//  Copyright (c) 2015年 mobiletrain. All rights reserved.
+//  Created by LUOHao on 15/8/20.
+//  Copyright (c) 2015年 jackfrued. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "CDRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[CDRootViewController alloc] init];;
+    
     return YES;
 }
 

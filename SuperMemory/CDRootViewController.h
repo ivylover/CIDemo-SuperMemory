@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CDRootViewController.h
 //  day082001
 //
 //  Created by LUOHao on 15/8/20.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface CDRootViewController : UIViewController
 
 @end
-
