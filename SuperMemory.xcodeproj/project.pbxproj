@@ -244,6 +244,7 @@
 					3FBFDA151BE27D77000153E0 = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = WX73XRL87F;
+						ProvisioningStyle = Manual;
 					};
 					3FBFDA2E1BE27D77000153E0 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -433,6 +434,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud4magic.cp;
 				PRODUCT_NAME = "记忆力大比拼";
+				PROVISIONING_PROFILE = "67d5f209-d3ac-4a66-bdc0-3637989d7a2c";
+				PROVISIONING_PROFILE_SPECIFIER = CIDemo;
 			};
 			name = Debug;
 		};
@@ -447,6 +450,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud4magic.cp;
 				PRODUCT_NAME = "记忆力大比拼";
+				PROVISIONING_PROFILE = "67d5f209-d3ac-4a66-bdc0-3637989d7a2c";
+				PROVISIONING_PROFILE_SPECIFIER = CIDemo;
 			};
 			name = Release;
 		};
