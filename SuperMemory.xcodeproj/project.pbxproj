@@ -244,7 +244,7 @@
 					3FBFDA151BE27D77000153E0 = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = WX73XRL87F;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					3FBFDA2E1BE27D77000153E0 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -428,14 +428,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = WX73XRL87F;
 				INFOPLIST_FILE = SuperMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud4magic.cp;
 				PRODUCT_NAME = "记忆力大比拼";
-				PROVISIONING_PROFILE = "67d5f209-d3ac-4a66-bdc0-3637989d7a2c";
-				PROVISIONING_PROFILE_SPECIFIER = CIDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -444,14 +445,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = WX73XRL87F;
 				INFOPLIST_FILE = SuperMemory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud4magic.cp;
 				PRODUCT_NAME = "记忆力大比拼";
-				PROVISIONING_PROFILE = "67d5f209-d3ac-4a66-bdc0-3637989d7a2c";
-				PROVISIONING_PROFILE_SPECIFIER = CIDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
